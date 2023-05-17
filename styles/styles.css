@@ -1,109 +1,117 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #F5F7FA;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f7fa;
 }
 
 /* main styles */
 
-.main{
-    display: flex;
-    flex-direction: row-reverse;
-    width: 1200px;
-    margin: 0% auto
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0% auto;
 }
 
 .main-content {
-    background: #FFFFFF;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    padding-top: 105px;
-    padding-right: 90px;
-    padding-bottom: 105px;
-    padding-left: 90px;
-    }
+  background: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  padding-top: 105px;
+  padding-right: 90px;
+  padding-bottom: 105px;
+  padding-left: 90px;
+}
 /* about styles  */
 
-.about { 
-    margin-bottom: 40px;
-    }
-
-.about_position{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    color: #000000;
-    margin-bottom: 20px;
+.about {
+  margin-bottom: 40px;
 }
 
-.about_name{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 55px;
-    color: #000000;
-    margin-bottom: 25px;
+.about_position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 20px;
 }
 
-.about_discription{
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        color: #595959;
-        width: 400px;
-        }
+.about_name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.about_discription {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  width: 400px;
+}
 
 /* projects styles*/
 
 .projects {
-   margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .title {
-        font-style: normal;
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 27px;
-        color: #000000;
-        margin-bottom: 10px;
-        
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 10px;
 }
 
 .projects_list {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #000000;
-    padding: 0;
-    margin-left: 15px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  padding: 0;
+  margin-left: 15px;
 }
 
-.project_item{
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 24px;
-        color: #000000;
+.project_item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
 }
-.project, 
-.project-link{
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        color: #595959;
+.project,
+.project-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
 }
 
-.project-link{
-    margin-left: 10px;
+.project-link {
+  margin-left: 10px;
+  text-decoration: none;
+  transition: all 0.3s
 }
-.project_bracket{
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 24px;
-        color: #000000;
+.project-link:hover{
+    color: #fb6d3a;
+}
+.project-link:focus{
+    color: #fb6d3a;
+}
+
+.project_bracket {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
 }
 
 /* work styles */
@@ -111,163 +119,177 @@ body {
     
 } */
 
-.work_position{
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 20px;
-        color: #000000;
-        margin-bottom: 10px;
+.work_position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 10px;
 }
-.organization{
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 20px;
-        color: #FB6D3A;
-        margin-bottom: 10px;
-    }
+.organization {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin-bottom: 10px;
+}
 
-    .period{
-            font-style: normal;
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 15px;
-            color: #A8A8A8;
-            margin-bottom: 8px;
-    }
-    .line{
-            font-style: normal;
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 15px;
-            color: #000000;
-    }
-    
-    .work_list{
-        padding: 0;
-        margin-left: 15px;
-    }
-    
-    .worklist_item{
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 24px;
-            color: #595959;
-    }
+.period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 8px;
+}
+.line {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.work_list {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.worklist_item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
 
 /* Education styles */
-.education{
-      margin-top: 43px;
+.education {
+  margin-top: 43px;
 }
 
-.univesity{
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 20px;
-        color: #FB6D3A;
-        margin-bottom: 10px;
+.univesity {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin-bottom: 10px;
 }
 
-.education_management{
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 17px;
-        color: #000000;
-        margin-bottom: 10px;
+.education_management {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 10px;
 }
-    /* Sidebar styles */
-    .sidebar{
-        background: #1E2939;
-        padding-top: 40px;
-        width: 370px;
-    }
-    
-    .photo{
-        width: 370px;
-        margin-bottom: 50px;
-    }
-
-    .sidebar_title {
-        color: #FFFFFF;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 22px;
-        line-height: 27px;
-        margin-bottom: 10px;
-    }
-
-    .contacts {
-        margin-left: 40px;
-        margin-bottom: 50px;
-    }
-    .tech_skills {
-        margin-left: 40px;
-        margin-bottom: 40px;
-    }
-
-    .techskills_list{
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        color: #FFFFFF;
-        padding: 0%;
-        margin-left: 15px;
-    }
-    .techskills_item{
-        color: #FB6D3A;
-    }
-
-    .techskills-text{
-        color: #FFFFFF;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-    }
-    
-    .soft_skills {
-        margin-left: 40px;
-    }
-
-    .softskills_list{
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        color: #FFFFFF;
-        padding: 0%;
-        margin-left: 15px;
-    }
-
-    .softskills_item{ 
-       color: #FB6D3A; 
+/* Sidebar styles */
+.sidebar {
+  background: #1e2939;
+  padding-top: 40px;
+  width: 370px;
 }
 
-.softskills_text{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #FFFFFF;
+.photo {
+  width: 370px;
+  margin-bottom: 50px;
+  border-radius: 190px;
 }
 
-    .contact_type { 
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 24px;
-        color: #FFFFFF;
-        margin-right: 10px;
-        }
-        .contact_link{
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        color: #565e6a;
-        }
+.sidebar_title {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+
+.contacts {
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+.tech_skills {
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.techskills_list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 0%;
+  margin-left: 15px;
+}
+.techskills_item {
+  color: #fb6d3a;
+}
+
+.techskills-text {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.soft_skills {
+  margin-left: 40px;
+}
+
+.softskills_list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 0%;
+  margin-left: 15px;
+}
+
+.softskills_item {
+  color: #fb6d3a;
+}
+
+.softskills_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.contact_type {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+.contact_link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: aliceblue;
+  text-decoration: none;
+  transition: all 0.3s
+}
+
+.contact_link:hover{
+    color: #fb6d3a;
+}
+
+.contact_link:focus{
+    color: #fb6d3a;
+}
+
+
+
