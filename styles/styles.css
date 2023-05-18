@@ -1,6 +1,5 @@
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #f5f7fa;
 }
 
 /* main styles */
@@ -14,8 +13,7 @@ body {
 
 .main-content {
   background: #ffffff;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  padding-top: 105px;
+  padding-top: 20px;
   padding-right: 90px;
   padding-bottom: 105px;
   padding-left: 90px;
@@ -94,9 +92,17 @@ body {
   color: #595959;
 }
 
+.project-name{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin-left: 10px;
+}
+
 .project-link {
   margin-left: 10px;
-  text-decoration: none;
   transition: all 0.3s
 }
 .project-link:hover{
