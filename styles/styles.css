@@ -47,7 +47,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: black;
   width: 400px;
 }
 
@@ -89,27 +89,27 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: black;
 }
 
-.project-name{
+.project-name {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: black;
   margin-left: 10px;
 }
 
 .project-link {
   margin-left: 10px;
-  transition: all 0.3s
+  transition: all 0.3s;
 }
-.project-link:hover{
-    color: #fb6d3a;
+.project-link:hover {
+  color: #fb6d3a;
 }
-.project-link:focus{
-    color: #fb6d3a;
+.project-link:focus {
+  color: #fb6d3a;
 }
 
 .project_bracket {
@@ -120,6 +120,16 @@ body {
   color: #000000;
 }
 
+.discription {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /* work styles */
 /* .work{
     
@@ -128,7 +138,7 @@ body {
 .work_position {
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 20px;
   color: #000000;
   margin-bottom: 10px;
@@ -147,7 +157,7 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-  color: #a8a8a8;
+  color: black;
   margin-bottom: 8px;
 }
 .line {
@@ -168,7 +178,8 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: black;
+  margin-top: 5px;
 }
 
 /* Education styles */
@@ -176,10 +187,10 @@ body {
   margin-top: 43px;
 }
 
-.univesity {
+.university {
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 20px;
   color: #fb6d3a;
   margin-bottom: 10px;
@@ -286,16 +297,13 @@ body {
   line-height: 24px;
   color: aliceblue;
   text-decoration: none;
-  transition: all 0.3s
+  transition: all 0.3s;
 }
 
-.contact_link:hover{
-    color: #fb6d3a;
+.contact_link:hover {
+  color: #fb6d3a;
 }
 
-.contact_link:focus{
-    color: #fb6d3a;
+.contact_link:focus {
+  color: #fb6d3a;
 }
-
-
-
